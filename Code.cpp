@@ -262,7 +262,7 @@ int main()
 				cout << "Easy Mode" << endl;
 				for (int i = 0; lifes != 0; i++)
 				{
-					cout << "Enter only p/P to pause or to Enter the Word press c/c = ";
+					cout << "Enter only p to pause or to Enter the Word press c = ";
 					cin >> save;
 					if (save == 'p')
 					{
@@ -452,10 +452,5 @@ int main()
 
 
 }
-/*for (int i = 0; i < col; ++i)
-{
-delete[] grid[i];
-}
-delete[] grid;*/
 
 
